@@ -30,6 +30,7 @@ CREATE TABLE anotation (
         'pessoal',
         'secreto'
     ) NOT NULL,
+    cor VARCHAR(7) not null,
     criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     atualizado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
         ON UPDATE CURRENT_TIMESTAMP,

@@ -1,4 +1,3 @@
-import { serialize } from 'node:v8';
 import * as db from '../repos/clienteRepo.js'
 
 export async function adicionarFoto(id, caminhoFoto) {
